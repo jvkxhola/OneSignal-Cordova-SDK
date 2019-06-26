@@ -24,6 +24,7 @@ buildscript {
     jcenter()
   }
   dependencies {
+    classpath 'com.google.android.gms:play-services-location:17.0.0'
     classpath 'com.google.android.gms:play-services-base:17.0.0'
     classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.1, 0.99.99]'
   }
